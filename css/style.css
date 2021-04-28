@@ -1,0 +1,100 @@
+/* Ajuste partes principais HTML*/
+body,
+ul, 
+li, 
+p {
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.1504rem;
+    font-family: sans-serif;
+    list-style: none;
+    background-color: rgb(16, 42, 129);
+    text-align: center;
+    color: white;
+    min-width: 60%;
+    
+}
+/* Ajuste do menu */
+a {
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+    font-size: 27px;
+    width: auto;
+
+}
+
+#menu ul li{
+    
+    display: inline;
+}
+
+#menu ul li a:hover{
+    color:rgb(155, 219, 25);
+    text-decoration: overline ;
+}
+
+/* Ajuste Barra escura com texto Thanos */
+h1 {
+    color: #FFF;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.616);
+    margin: 4px;
+    padding: 7px;
+    background-size: cover;
+    
+
+}
+/* Banner Super Heróis */
+.full-banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: auto ;
+    justify-content: space-around;
+    padding: 22px;
+    
+}
+h2 {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+img {
+    /* Máimo de 100% do container */
+    max-width: 50%;
+    
+    /* display: block; */
+    border-radius: 12px;
+}
+
+
+.header {
+    background-color: rgb(16, 42, 129);
+    padding-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+
+}
+
+.galeria {
+    margin: 0 ;
+}
+
+
+footer {
+    background-color:rgba(0, 0, 0, 0.507);
+    
+}
+
+footer p {
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: rgba(172, 252, 11, 0.733);
+    padding: auto;
+    margin: 0px;
+}
